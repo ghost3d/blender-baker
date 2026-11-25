@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "baker"
+version = "0.1.0"
+name = "Baker"
+tagline = "Batch bake normal, displacement and cavity maps from high to low poly"
+maintainer = "Michael Kirylo"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Import OBJ files and write baked texture maps to disk"
